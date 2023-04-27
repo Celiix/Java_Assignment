@@ -1,5 +1,7 @@
 # Java_Assignment/ OOP
 
+Software used - Intellij
+
 Here is a Java Application for a Student Hall System. The application is a simple student hall system that allows the user to inpuut standard information about a student or employee at the university. 
 
 The application also allows you to save your information in txt (text) files, view the information and reset all fileds of information. 
