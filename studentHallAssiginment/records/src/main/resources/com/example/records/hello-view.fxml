@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.records.HelloController">
+   <children>
+      <Label fx:id="l1" layoutX="47.0" prefHeight="47.0" prefWidth="418.0" text="Welcome to the Student Hall Management System">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font></Label>
+      <Label fx:id="l2" layoutX="14.0" layoutY="47.0" prefHeight="29.0" prefWidth="191.0" text="Select the category of person" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="14.0" layoutY="88.0" prefHeight="25.0" prefWidth="104.0" text="Enter full name" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="select" layoutX="217.0" layoutY="49.0" prefWidth="150.0" promptText="Select" visibleRowCount="2" />
+      <Label fx:id="l31" layoutX="14.0" layoutY="129.0" prefHeight="25.0" prefWidth="104.0" text="REG. date" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l311" layoutX="14.0" layoutY="174.0" prefHeight="25.0" prefWidth="104.0" text="Enter ID" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3112" layoutX="14.0" layoutY="225.0" prefHeight="25.0" prefWidth="104.0" text="Gender" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l31121" layoutX="14.0" layoutY="263.0" prefHeight="25.0" prefWidth="104.0" text="Address" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l311211" layoutX="14.0" layoutY="375.0" prefHeight="25.0" prefWidth="104.0" text="Date of birth" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="217.0" layoutY="88.0" prefHeight="25.0" prefWidth="191.0" />
+      <TextField fx:id="id" layoutX="217.0" layoutY="174.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="gender" layoutX="217.0" layoutY="225.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="addr" layoutX="217.0" layoutY="263.0" prefHeight="25.0" prefWidth="191.0" />
+      <RadioButton fx:id="r1" layoutX="47.0" layoutY="406.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="104.0" selected="true" text="Vegetarian ">
+         <toggleGroup>
+            <ToggleGroup fx:id="sl" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="r2" layoutX="250.0" layoutY="406.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="104.0" text="Vegan" toggleGroup="$sl" />
+      <DatePicker fx:id="regDate" layoutX="215.0" layoutY="129.0" />
+      <DatePicker fx:id="birthDate" layoutX="215.0" layoutY="375.0" />
+      <Button fx:id="save" layoutX="48.0" layoutY="452.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="25.0" prefWidth="77.0" text="Save" />
+      <Button layoutX="177.0" layoutY="452.0" mnemonicParsing="false" onAction="#viewButton" prefHeight="25.0" prefWidth="77.0" text="view" />
+      <Button fx:id="reset" layoutX="297.0" layoutY="452.0" mnemonicParsing="false" onAction="#resetButton" prefHeight="25.0" prefWidth="77.0" text="Reset" />
+      <Label fx:id="l311212" layoutX="14.0" layoutY="336.0" prefHeight="25.0" prefWidth="104.0" text="Nationality" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="na" layoutX="217.0" layoutY="336.0" prefHeight="25.0" prefWidth="191.0" />
+      <TextField fx:id="age" layoutX="217.0" layoutY="302.0" prefHeight="25.0" prefWidth="118.0" />
+      <Label fx:id="l3112121" layoutX="14.0" layoutY="302.0" prefHeight="25.0" prefWidth="104.0" text="Age" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
