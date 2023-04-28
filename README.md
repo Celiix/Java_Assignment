@@ -1,4 +1,4 @@
-# Java_Assignment/ OOP
+# JAVA_Assignment/ OOP
 
 Software used - Intellij
 
