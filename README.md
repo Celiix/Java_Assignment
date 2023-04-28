@@ -11,13 +11,13 @@ When all fields have been filled out a small window will pop up to confirm yoour
 
 Navigate To Application
 
-follow this navigation to find the application = studentHallAssiginment\records\src\main\java\com\example\records
+Follow this navigation to find the application = studentHallAssiginment\records\src\main\java\com\example\records
 
 When files are located run HelloApplication.java file to see application. 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Screenshots of Student Hall Management System
-
+---------------------------------------------------------------------------------------------------------
 The images below demostrates all features of the application.
 
 ![Screenshot 2023-04-27 144856](https://user-images.githubusercontent.com/92170983/234894223-bd3fa971-cbfe-48c9-bbd4-288f68034c86.png)
