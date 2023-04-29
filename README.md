@@ -10,7 +10,7 @@ When all fields have been filled out a small window will pop up to confirm yoour
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Navigate To Application
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Follow this navigation to find the application = studentHallAssiginment\records\src\main\java\com\example\records
 
 When files are located run HelloApplication.java file to see application. 
